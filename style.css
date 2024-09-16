@@ -175,3 +175,14 @@ p,a{
     background: -webkit-linear-gradient(90deg, #48085b,#232741);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #48085b,#232741);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
     height: 500px;
 }
+
+
+/* CSS ALERTA Y CARRITO */
+.fixed-button {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1050; 
+    transition: transform 0.3s ease; 
+  }
