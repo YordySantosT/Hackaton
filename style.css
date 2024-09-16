@@ -115,6 +115,7 @@ p,a{
 
 .header-col2{
     width: 33.3%;  
+    position: relative;
 }
 
 .header-col3{
@@ -207,6 +208,11 @@ p,a{
     text-decoration: underline;
     color: #fff;
 }
+.card-title{
+    text-align: center;
+    font-size: 2rem;
+    color: #7a289c;
+}
 
 
 /* SHOPPING------ */
@@ -227,6 +233,12 @@ p,a{
   .fixed-button:hover{
     background-color: #7a289c;
   }
+
+  #carrito img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover; 
+}
 
  
 
@@ -293,6 +305,7 @@ p,a{
     font-size: 35px;
     line-height: 40px;
     color: #ecf0f1;
+    width: 120%;
   }
   .content__container {
     font-weight: 600;
