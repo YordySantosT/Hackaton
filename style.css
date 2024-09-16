@@ -1,0 +1,177 @@
+/* CSS RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6, a{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p,a{
+    font-size: 1.5rem;
+}
+/* -----------------HEADER STYLES */
+
+.header-col3-navbar{
+  
+}
+
+.container{
+    width: 100%;
+}
+.header{
+    display: flex;
+    width: 100;
+
+}
+.header-col1{
+    background: -webkit-linear-gradient(90deg, #bc109a,#7a289c);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #bc109a,#7a289c);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                                                                  width: 33.3%;              
+}
+.header-logo{
+    width: 70%;
+    display: block;
+}
+
+.header-col1,
+.header-col2,
+.header-col3{
+    
+}
+
+.header-imgcenter{
+    width: 100%;
+}
+.header-imgjuego{
+    width: 100%;
+}
+.header-col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-col1-logo{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-col2{
+    width: 33.3%;  
+}
+
+.header-col3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-col3-nav{
+    background-image: url(img/bg-nav.jpg);
+    background-size:contain;
+    height: 50%;
+
+}
+
+.header-col3-shop{
+    background: -webkit-linear-gradient(90deg, #48085b,#232741);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #48085b,#232741);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-col3-link{
+    color: #fff;
+    font-size: 4rem;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+/* ------------NOSOTROS SECTION */
+
+.nosotros{
+    background: -webkit-linear-gradient(90deg, #bc109a,#7a289c);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #bc109a,#7a289c);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */          
+    height: 400px;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+}
+.nosotros-header{
+    font-size: 3.5rem;
+}
+.nosotros-text{
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+/* SHOP ------------*/
+
+.card-footer{
+    background: -webkit-linear-gradient(90deg, #bc109a,#7a289c);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #bc109a,#7a289c);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+}
+.card-footer a{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding: 18px 0;
+    height: 100%;
+
+}
+
+
+/* SHOPPING------ */
+
+.list{
+    background: -webkit-linear-gradient(90deg, #48085b,#232741);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #48085b,#232741);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    height: 500px;
+}
