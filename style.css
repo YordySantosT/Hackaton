@@ -51,8 +51,9 @@ h1, h2, h3, h4, h5, h6, a{
     font-family: "Bebas Neue", sans-serif;
 }
 
-p,a{
-    font-size: 1.5rem;
+p, a{
+    font-size: 1.3rem;
+    font-family: "Lato", sans-serif;
 }
 /* -----------------HEADER STYLES */
 
@@ -229,6 +230,7 @@ p,a{
     transition: transform 0.3s ease; 
     background-color: #bc109a;
     font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
   }
   .fixed-button:hover{
     background-color: #7a289c;
@@ -250,10 +252,15 @@ p,a{
     
     text-align: center;
     color: #fff;
-    padding: 100px 0;
+    padding: 100px 0 30px;
 }
 .footer h2{
     font-size: 1.5rem;
+    margin: 18px;
+}
+.footer-logo{
+    width: 10%;
+    margin: 18px 0;
 }
 
 
@@ -287,6 +294,7 @@ p,a{
     .header-col3-nav{
         padding: 50px 0;
     }
+    
 
   }
 
@@ -305,7 +313,7 @@ p,a{
     font-size: 35px;
     line-height: 40px;
     color: #ecf0f1;
-    width: 120%;
+    width: 80%;
   }
   .content__container {
     font-weight: 600;

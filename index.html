@@ -9,6 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
 <!-- animate library -->
 <link
     rel="stylesheet"
@@ -24,7 +28,7 @@
                     <img src="img/virtualFit-logo.png" class="header-logo" alt="">
                 </article>
 
-                <article>
+                <article class="header-col1-img">
                     <img src="img/que-el-juego-comience.jpg" class="header-imgjuego">
                 </article>
             </section>
@@ -58,9 +62,8 @@
                     <nav>
                         <ul class="header-col3-navbar">
                             <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Conocenos</a></li>
-                            <li><a href="#">Tienda</a></li>
-                            <li><a href="#">Carrito</a></li>
+                            <li><a href="#conocenos">Conocenos</a></li>
+                            <li><a href="#tienda">Tienda</a></li>
                         </ul>
                     </nav>
                     <a class="header-col3-btn btn-bg" href="#">Ingresar</a>
@@ -78,14 +81,14 @@
         </header>
 
 
-        <section class="nosotros">
+        <section class="nosotros" id="conocenos">
             <h1 class="nosotros-header">Bienvenido a VirtualFit</h1>
             <p class="nosotros-text"> donde el deporte y la realidad virtual se encuentran. Descubre una nueva forma de entrenar con equipos inmersivos que te transportan a cualquier escenario. Ya sea corriendo por montañas o compitiendo en torneos, ¡en VirtualFit llevamos tu entrenamiento a otro nivel!</p>
         </section>
 
 
         <!-- SHOP -->
-        <section class="card-group">
+        <section class="card-group" id="tienda">
             <div class="card">
               <img src="img/img1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -160,9 +163,13 @@
             <h2>Página hecha para Generation por:</h2>
             <ul>
                 <li>John Alejandro Gasca</li>
-                <li>Jordi Stiward Santo</li>
-                <li>John Alejandro Gasca</li>
+                <li>Jordi Stiward Santos</li>
+                <li>Jorge Arturo Ruge</li>
             </ul>
+            <div>
+                <img src="img/virtualFit-logo.png" class="footer-logo" alt="">
+            </div>
+            
 
         </footer>
 
@@ -247,7 +254,7 @@
       <div class="offcanvas-body" id="carrito">
         
       </div>
-      <button type="button" class="btn miBoton" id="eliminarbtn">Elimiar</button>
+      <button type="button" class="btn miBoton" id="eliminarbtn">Eliminar</button>
 
     </div>
 
