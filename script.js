@@ -20,3 +20,5 @@ eliminar.addEventListener("click", function(){
         modal.show();
     }
 })
+
+
