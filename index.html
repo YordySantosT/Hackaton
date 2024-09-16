@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<!-- animate library -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,16 +39,16 @@
             <section class="header-col3">
                 <article class="header-col3-nav">
                     <nav>
-                        <ul>
+                        <ul class="header-col3-navbar">
                             <li><a href="#">Inicio</a></li>
                             <li><a href="#">Conocenos</a></li>
                             <li><a href="#">Tienda</a></li>
                             <li><a href="#">Carrito</a></li>
                         </ul>
                     </nav>
-                    <a href="#">Ingresar</a>
+                    <a class="header-col3-btn btn-bg" href="#">Ingresar</a>
                     <p>¿Ya tienes una cuenta?</p>
-                    <a href="#">Registrarse</a>
+                    <a href="#" class="header-col3-btn">Registrarse</a>
                     <p>El contenido y los servicios proporcionados en este sitio son solo para uso personal y no comercial.</p>
                 </article>
 
@@ -57,7 +62,22 @@
 
 
         <section class="nosotros">
-            <h1 class="nosotros-header">Bienvenidos a VirtuallFit</h1>
+            <div class="content">
+                <div class="content__container">
+                  <p class="content__container__text">
+                    HOLA
+                  </p>
+                  
+                  <ul class="content__container__list">
+                    <li class="content__container__list__item">ATLETAS !</li>
+                    <li class="content__container__list__item">ESTUDIANTES !</li>
+                    <li class="content__container__list__item">JUGADORES !</li>
+                    <li class="content__container__list__item">  A  TODOS!</li>
+                  </ul>
+                </div>
+              </div>
+
+            <h1 class="nosotros-header">Bienvenido a VirtualFit</h1>
             <p class="nosotros-text"> donde el deporte y la realidad virtual se encuentran. Descubre una nueva forma de entrenar con equipos inmersivos que te transportan a cualquier escenario. Ya sea corriendo por montañas o compitiendo en torneos, ¡en VirtualFit llevamos tu entrenamiento a otro nivel!</p>
         </section>
 
@@ -72,8 +92,7 @@
               </div>
               <div class="card-footer">
                 <button type="button" class="btn" id="mibotn">Añadir</button>
-                <button type="button" class="btn" id="eliminarbtn">Eliminar</button>
-                <a href="#" id="mibotn">AGREGAR AL CARRITO</a>
+                <!-- <a href="#">AGREGAR AL CARRITO</a> -->
               </div>
             </div>
             <div class="card">
@@ -83,7 +102,7 @@
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
               </div>
               <div class="card-footer">
-                <a href="#">AGREGAR AL CARRITO</a>
+                <button type="button" class="btn" id="mibotn">Añadir</button>
               </div>
             </div>
             <div class="card">
@@ -93,7 +112,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
               <div class="card-footer">
-                <a href="#">AGREGAR AL CARRITO</a>
+                <button type="button" class="btn" id="mibotn">Añadir</button>
               </div>
             </div>
         </section>
@@ -106,7 +125,7 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
               <div class="card-footer">
-                <a href="#">AGREGAR AL CARRITO</a>
+                <button type="button" class="btn" id="mibotn">Añadir</button>
               </div>
             </div>
             <div class="card">
@@ -116,7 +135,7 @@
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
               </div>
               <div class="card-footer">
-                <a href="#">AGREGAR AL CARRITO</a>
+                <button type="button" class="btn" id="mibotn">Añadir</button>
               </div>
             </div>
             <div class="card">
@@ -126,16 +145,22 @@
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
               <div class="card-footer">
-                <a href="#">AGREGAR AL CARRITO</a>
+                <button type="button" class="btn" id="mibotn">Añadir</button>
               </div>
             </div>
         </section>
 
-        <!-- CARRITO -->
-        <section class="list">
-            <h2>Has agregado al carrito de</h2>
+        <!-- Footer -->
+        <footer class="footer">
 
-        </section>
+            <h2>Página hecha para Generation por:</h2>
+            <ul>
+                <li>John Alejandro Gasca</li>
+                <li>Jordi Stiward Santo</li>
+                <li>John Alejandro Gasca</li>
+            </ul>
+
+        </footer>
 
 
         <!-- ELEMENTOS CARRITO -->
@@ -143,13 +168,13 @@
         <!-- BOTNO PARA EXPAMDIR CARRIRO -->
 
 <button
-      class="btn btn-primary fixed-button"
+      class="btn btn-primary fixed-button btn-shop"
       type="button"
       data-bs-toggle="offcanvas"
       data-bs-target="#offcanvasScrolling"
       aria-controls="offcanvasScrolling"
     >
-      <i class="bi bi-arrow-right"> < </i>
+      <i class="bi bi-arrow-right"> < Carrito </i>
     </button>
 
         
@@ -214,6 +239,7 @@
           aria-label="Close"
         ></button>
       </div>
+
       <div class="offcanvas-body" id="carrito">
         
       </div>
@@ -229,6 +255,7 @@
 <!-- SCRIPT -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
