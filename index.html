@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!---------------------------------------------------------- Botón que abre el carrito de compras------------------------------------------------------------>
     <button
       class="btn btn-primary fixed-button"
       type="button"
@@ -23,7 +23,8 @@
     >
       <i class="bi bi-arrow-right"> < </i>
     </button>
-
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <!-------------------------------------- Carrito de Compras, todo lo que este dentro del Div Carrito serian productos ---------------------------------------->
     <div
       class="offcanvas offcanvas-end"
       data-bs-scroll="true"
@@ -46,13 +47,11 @@
       <div class="offcanvas-body" id="carrito"></div>
     </div>
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <!----------------------------------- Botones de agregar y eliminar productos, se pueden copiar y pegar donde se necesiten ------------------------------------>
     <button type="button" class="btn" id="mibotn">Añadir</button>
     <button type="button" class="btn" id="eliminarbtn">Eliminar</button>
-
-    <h1 style="margin-top: 50000px">hhhh</h1>
-
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-
+    <!---------------------------------------------Alerta cuando le damos a eliminar y no hay productos ----------------------------------------------------------------------->
     <div
       class="modal fade"
       id="miModal"
@@ -88,7 +87,7 @@
         </div>
       </div>
     </div>
-
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
